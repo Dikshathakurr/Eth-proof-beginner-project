@@ -4,7 +4,7 @@ This Solidity program is like a playground for creating and destroying tokens. I
 It's like playing with virtual coins! We can create more coins and give them to our friends, or We can take coins out of circulation if you don't need them anymore.
 
 # Description:
-This Solidity program showcases a fundamental token system, enabling the creation and removal of virtual tokens. Named "Token Demo," it monitors the overall token supply and individual address balances. The `mint` function generates new tokens and allocates them to a designated address, thus augmenting the total supply. Conversely, the `burn` function deducts tokens from a specified address, thereby reducing both the total supply and the address's balance. With straightforward functionalities, users can simulate token issuance and depletion within this simulated environment.
+This Solidity program showcases a fundamental token system, enabling the creation and removal of virtual tokens. Named "MYToken," it monitors the overall token supply and individual address balances. The `mint` function generates new tokens and allocates them to a designated address, thus augmenting the total supply. Conversely, the `burn` function deducts tokens from a specified address, thereby reducing both the total supply and the address's balance. With straightforward functionalities, users can simulate token issuance and depletion within this simulated environment.
 
 # Getting started
 # Requirement:
@@ -49,11 +49,11 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 
 
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. 
-Make sure the "Compiler" option is set to "0.8.0" (or another compatible version), and then click on the "Compile MyToken.sol" button.
+Make sure the "Compiler" option is set to "0.8.0" (or another compatible version), and then click on the "Compile MYToken.sol" button.
 
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MYTOKEN " contract from the dropdown menu, and then click on the "Deploy" button.
+Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MYToken " contract from the dropdown menu, and then click on the "Deploy" button.
 
-Once the contract is deployed, you can interact with it. Click on the "MYTOKEN " contract in the left-hand sidebar, and then check the token Abbrev, tokenName, total supply by clicking them. By passing address and token value in mint and clicking it will call the mint function and same will be with burn.
+Once the contract is deployed, you can interact with it. Click on the "MYToken " contract in the left-hand sidebar, and then check the token Abbrev, tokenName, total supply by clicking them. By passing address and token value in mint and clicking it will call the mint function and same will be with burn.
 
 # Author
 
